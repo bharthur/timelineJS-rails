@@ -171,7 +171,7 @@ function createStoryJS(e, t) {
             source: "https://docs.google.com/spreadsheet/pub?key=0Agl_Dv6iEbDadFYzRjJPUGktY0NkWXFUWkVIZDNGRHc&output=html",
             lang: "en",
             font: "default",
-            css: c.css + "timeline.css?" + u,
+            css: c.css + "dark.css?" + u,
             js: "",
             api_keys: {
                 google: "",
