@@ -150,13 +150,13 @@ function createStoryJS(e, t) {
             }
         }, c = {
             base: embed_path,
-            css: embed_path + "dark.css",
-            js: embed_path + "timeline.js",
-            locale: embed_path + "locale/en.js",
+            css: embed_path,
+            js: embed_path,
+            locale: embed_path + "locale/",
             jquery: "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js",
             font: {
                 google: !1,
-                css: embed_path + "font/Georgia-Helvetica.css",
+                css: embed_path + "font/",
                 js: "//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"
             }
         }, h = {
