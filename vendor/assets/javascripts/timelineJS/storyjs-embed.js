@@ -150,13 +150,13 @@ function createStoryJS(e, t) {
             }
         }, c = {
             base: embed_path,
-            css: embed_path,
-            js: embed_path,
-            locale: embed_path + "locale/",
+            css: embed_path + "dark.css",
+            js: embed_path + "timeline.js",
+            locale: embed_path + "locale/en.js",
             jquery: "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js",
             font: {
                 google: !1,
-                css: embed_path + "font/",
+                css: embed_path + "font/Georgia-Helvetica.css",
                 js: "//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"
             }
         }, h = {
@@ -284,7 +284,7 @@ function createStoryJS(e, t) {
         l.has_jquery = jQuery;
         l.has_jquery = !0;
         if (l.has_jquery) {
-            var f = parseFloat(jQuery.fn.jquery);
+            var f = parseFloat(jQuery.fn.jquery).toFixed(2);
             f < parseFloat(a) ? l.jquery = !1 : l.jquery = !0
         }
     } catch (m) {
